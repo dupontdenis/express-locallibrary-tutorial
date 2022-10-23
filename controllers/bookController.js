@@ -285,7 +285,6 @@ exports.book_update_post = [
       try {
         // ne pas mettre await et res.direct(url) serait faux !
         const {url} =  await Book.findByIdAndUpdate(req.params.id, book, {});
-        console.log("kkkkkkkkkkkkkk")
         res.redirect(url);
       } catch (error) {
         console.log("ici" + error.message); // 
