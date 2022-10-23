@@ -1,0 +1,17 @@
+
+.container-fluid{
+    width: 80vw;
+
+}
+
+.sidebar-nav {
+    list-style: none;
+}
+
+.col-sm-2{
+    border-right: 1px dotted black
+}
+
+body {
+    background-color: aliceblue;
+}

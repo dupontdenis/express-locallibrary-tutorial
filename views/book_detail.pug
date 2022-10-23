@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Title: #{book.title}
+  
+  p #[strong Author:] 
+    a(href=book.author.url) #{book.author.name}
+  p #[strong Summary:] #{book.summary}
+
+  p #[strong ISBN:] #{book.isbn}  
+  hr
+  p
+    a(href=book.url+'/delete') Delete Book
+  p
+    a(href=book.url+'/update') Update Book
