@@ -4,9 +4,10 @@ Tutorial "Local Library" website written in in Node/Express.
 ----
 # Populate
 >Populate Atlas
+
 node populate 'mongodb+srv://name and pass/cluster0.kkmmj.mongodb.net/?retryWrites=true&w=majority'
 
->Populate localy 
+>Populate locally 
 
  bash or powershell
 node populate 'mongodb://127.0.0.1:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false'
