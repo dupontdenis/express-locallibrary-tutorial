@@ -3,8 +3,16 @@ Tutorial "Local Library" website written in in Node/Express.
 
 ----
 Populate
-node populate 'mongodb+srv://name and pass 
-cluster0.kkmmj.mongodb.net/?retryWrites=true&w=majority'
+node populate 'mongodb+srv://name and pass/cluster0.kkmmj.mongodb.net/?retryWrites=true&w=majority'
+
+Populate localy 
+> **Note** not cmd terminal
+
+powershell
+node populate.js 'mongodb://127.0.0.1'; 
+
+bash
+node populate 'mongodb://127.0.0.1:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false'
 ----
 
 This web application creates an online catalog for a small local library, where users can browse available books and manage their accounts.
